@@ -17,7 +17,6 @@ composer.phar
 
 # Editor / IDE
 /.idea/
-/.vscode/
 *.sublime-*
 
 # OS junk
