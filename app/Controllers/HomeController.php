@@ -2,10 +2,12 @@
 
 namespace App\Controllers;
 
-class HomeController
+use App\Controller;
+
+class HomeController extends Controller
 {
-    public function index(): void
+    public function get(): void
     {
-        echo '<h1>Home page</h1>';
+        $this->view('home');
     }
 }
